@@ -11,10 +11,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "user")
+@Table(name = "student")
 
 public class Student {
     @Id
+    @GeneratedValue
     @Column(name = "student_id")
     private Long studentId;
 

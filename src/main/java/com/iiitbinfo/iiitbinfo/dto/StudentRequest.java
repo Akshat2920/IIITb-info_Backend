@@ -3,9 +3,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.validation.constraints.*;
 
 public record StudentRequest(
-    @JsonProperty("student_id")
-    @NotNull(message = "ID could not be null")
-    Long student_id,
+    //@JsonProperty("student_id")
+    //@NotNull(message = "ID could not be null")
+    //Long student_id,
 
     @JsonProperty("rollNo") 
     @NotBlank(message = "First name cannot be null or blank") 

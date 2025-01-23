@@ -6,7 +6,6 @@ import com.iiitbinfo.iiitbinfo.entity.Student;
 public class StudentMapper {
     public static Student toEntity(StudentRequest studentRequest){
         return Student.builder()
-                .studentId(studentRequest.student_id())
                 .email(studentRequest.email())
                 .rollNo(studentRequest.rollNo())
                 .firstName(studentRequest.firstName())
