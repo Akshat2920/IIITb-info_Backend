@@ -6,5 +6,5 @@ import com.iiitbinfo.iiitbinfo.entity.Student;
 
 
 public interface StudentRepo extends JpaRepository<Student, Long>{
-    Optional<Student> findByEmail(String email);
+    Optional<Student> findByRollNo(String rollno);
 }
